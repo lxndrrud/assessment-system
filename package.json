@@ -1,0 +1,20 @@
+{
+  "name": "system-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "uc:add": "node src/commands/add.js",
+    "uc:list": "node src/commands/list.js",
+    "uc:link": "node src/commands/link.js",
+    "uc:get": "node src/commands/get.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "neo4j-driver": "^5.20.0"
+  },
+  "type": "module"
+}
